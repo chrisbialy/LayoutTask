@@ -503,6 +503,8 @@ h6_Blog {
     border: 0px;
     padding: 20px 20px 50px;
     text-align: left;
+    font-family: Gotham;
+    height: 100%;
 }
 
 .button_wrp img {
@@ -557,6 +559,17 @@ h6_Blog {
 
 }
 
+.btn_title {
+    display: inline-block;
+    vertical-align: middle;
+    color: #e42c35;
+    font-size: 1.2em;
+    font-weight: 700;
+    /*font-family: Gotham;*/
+    text-transform: uppercase;
+    width: 70%;
+}
+
 
 /*center h4 p*/
 
@@ -569,6 +582,10 @@ section.about-us .about-info h4 {
 section.about-us .about-info p {
     
     text-align: center !important;
+}
+
+a.list-group-item, button.list-group-item {
+    font-weight: 400 !important;
 }
 
 
